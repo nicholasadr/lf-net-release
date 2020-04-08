@@ -1,5 +1,6 @@
 from .se3dataset import SE3PairwiseDataset
 from .sfmdataset import SfMDataset, RawSfMDataset
+from .cdataset import CDataset
 from spatial_transformer import transformer_crop
 
 import tensorflow as tf
